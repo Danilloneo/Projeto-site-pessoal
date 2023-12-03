@@ -127,6 +127,133 @@ section.descricao p{
     line-height:40px;
 }
 
+/*Description Experience*/
+section.descricao2{
+    position: relative;
+    transform:translateY(-50%);
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+
+section.descricao2 h2{
+    color:#343a40;
+    font-size: 36px;
+}
+
+section.descricao2 h2 > span,
+section.descricao2 h3 > span
+{
+    color:  #0d1a53;
+}
+
+section.descricao2 h3{
+    margin:15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.descricao2 p{
+    color:#6c757d;
+    font-size:20px;
+    margin-top:40px;
+}
+
+/*Section Education */
+
+section.descricao3{
+    position: relative;
+    transform:translateY(-50%);
+    margin-top: 460px;
+    margin-bottom: -400px;
+}
+
+section.descricao3 h2{
+    color:#343a40;
+    font-size: 36px;
+}
+
+section.descricao3 h2 > span,
+section.descricao3 h3 > span
+{
+    color:  #0d1a53;
+}
+
+section.descricao3 h3{
+    margin:15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.descricao3 p{
+    color:#6c757d;
+    font-size:20px;
+    margin-top:40px;
+}
+
+/*Contact us*/
+section.descricao4{
+    position: relative;
+    transform:translateY(-50%);
+    margin-top: 600px;
+    margin-bottom: 100px;
+}
+
+section.descricao4 h2{
+    color:#343a40;
+    font-size: 36px;
+}
+
+section.descricao4 h2 > span,
+section.descricao4 h3 > span
+{
+    color:  #0d1a53;
+}
+
+section.descricao4 h3{
+    margin:15px 0;
+    color: #6c757d;
+    font-size: 26px;
+}
+
+section.descricao4 p{
+    color:#6c757d;
+    font-size:20px;
+    margin-top:40px;
+}
+
+
+form input, form textarea, form button {
+    
+    display: block;
+    width: 320px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    padding: 2px;
+}
+
+form textarea {
+    resize: none; /*Textarea não manipulável tamanho*/
+    height: 180px;
+}
+
+
+form button {
+    background-color: #192c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #31457c; /*Efeito passar mouse botão*/
+}
+
+input:focus, textarea:focus {
+    outline-color: #192c61; /*Editar o contorno do click nos campos*/
+}
+
+
 @media (min-width: 120px) and (max-width:700px){
     *{
         margin: 0;
@@ -214,7 +341,7 @@ section.descricao p{
     section.descricao {
         position: relative;
         transform:translateY(-50%);
-        margin-top: 200px;
+        margin-top: 100px;
         margin-bottom: 100px;
     }
     
@@ -275,7 +402,7 @@ section.descricao p{
     section.descricao3{
         position: relative;
         transform:translateY(-50%);
-        margin-top: 750px;
+        margin-top: 730px;
         margin-bottom: -400px;
     }
     
@@ -301,6 +428,58 @@ section.descricao p{
         font-size:20px;
         margin-top:40px;
     }
+
+    /*Description Contact*/
+    section.descricao4 {
+        position: relative;
+        transform:translateY(-50%);
+        margin-top: 550px;
+        margin-bottom: 100px;
+    }
+    
+    section.descricao4 h2{
+        color:#343a40;
+        font-size: 36px;
+    }
+    
+    section.descricao4 h2 > span,
+    section.descricao4 h3 > span
+    {
+        color:  #0d1a53;
+    }
+    
+    section.descricao4 h3{
+        margin:15px 0;
+        color: #6c757d;
+        font-size: 26px;
+    }
+    
+    section.descricao4 p{
+        color:#6c757d;
+        font-size:20px;
+        margin-top:40px;
+    }
+
+    section .descricao4 form {
+
+    }
+
+    form input, form textarea, form button {
+    
+        display: block;
+        width: 220px;
+        height: 100%;
+        margin-top: 1px;
+        margin-bottom: 8px;
+        padding: 2px;
+    }
+    
+    form textarea {
+        resize: none; /*Textarea não manipulável tamanho*/
+        height: 180px;
+    }
+    
+
     .icons-social{
         margin-top:20px;
     }
