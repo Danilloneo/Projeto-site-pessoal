@@ -276,7 +276,7 @@ section.descricao p{
         position: relative;
         transform:translateY(-50%);
         margin-top: 750px;
-        margin-bottom: 100px;
+        margin-bottom: -400px;
     }
     
     section.descricao3 h2{
